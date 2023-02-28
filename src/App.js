@@ -1,10 +1,19 @@
-
+import Navigation from './Components/Navbar';
+import Header from './Components/Header';
+import {BrowserRouter,Routes, Route,} from 'react-router-dom';
 import './App.css';
 function App() {
   return (
-    <div className="App">
-      <h1>Hello</h1>
-    </div>
+    <>
+    <Header/>
+    <BrowserRouter>
+      <Navigation/>
+      <Routes>
+        <Route path="/" exact />
+      </Routes>
+    </BrowserRouter>
+    
+    </>
   );
 }
 
