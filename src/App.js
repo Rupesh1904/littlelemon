@@ -1,18 +1,17 @@
-import Navigation from './Components/Navbar';
-import Header from './Components/Header';
+
 import {BrowserRouter,Routes, Route,} from 'react-router-dom';
 import './App.css';
+import Navbar from './Components/Navbar';
 function App() {
   return (
     <>
-    <Header/>
+   
     <BrowserRouter>
-      <Navigation/>
+      <Navbar/>
       <Routes>
         <Route path="/" exact />
       </Routes>
     </BrowserRouter>
-    
     </>
   );
 }
