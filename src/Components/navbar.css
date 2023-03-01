@@ -8,6 +8,7 @@
     position: sticky;
     top: 0;
     z-index: 999;
+    border-radius: 10px;
 }
 .navbar-container {
     display: flex;
@@ -17,7 +18,7 @@
     max-width: 1500px;
   }
 .navbar-logo {
-    color: #fff;
+    color: #dddada;
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
@@ -36,7 +37,7 @@
     grid-gap: 10px;
     list-style: none;
     text-align:center;
-    width: 74vw;
+    width: 70vw;
     justify-content: end;
     margin-right: 2rem;
   }
