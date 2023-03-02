@@ -12,12 +12,13 @@ function HeroSection() {
             <p>Welcome to little lemon,<br/> the new resturant in your town with most affordable rates<br/>
                 and delicious food on the table.
             </p>
+            <br/>
             <Link to="/Reservation" className='Reserve-table-button'>
                 Reserve a Table
             </Link>
         </div>
         <div className='About-image'>
-        <img src={image} width="300" height="350" alt=''></img>
+        <img src={image} width="250" height="300" alt='' style={{borderRadius:75/2}} ></img>
         </div>
     </div>
   )
