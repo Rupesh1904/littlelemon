@@ -29,7 +29,7 @@ function Navbar() {
    <nav className="navbar">
     <div className="navbar-container">
     <Link to="/" className='navbar-logo' onClick={closeMobileMenu} >
-    <img src={logo} width="200" height="50" />
+    <img src={logo} alt="Logo" width="200" height="50" />
         
     </Link>
         <div className="menu-icon" onClick={handleClick}>
@@ -63,7 +63,7 @@ function Navbar() {
         </li>
         <li className='nav-item'>
             <Link to ="/Login" className='nav-links' onClick={closeMobileMenu}>
-            {button &&<Button buttonSize={'btn--small'}>Login</Button>}
+            {button &&<Button buttonSize={'btn--small'} >Login</Button>}
             </Link>
         </li>
     </ul>
