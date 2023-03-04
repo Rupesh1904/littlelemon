@@ -1,7 +1,6 @@
 import React,{useState,useEffect} from 'react';
 import  {Link} from 'react-router-dom';
 import logo from './Logo.jpg';
-import { Button } from './Button';
 import  './navbar.css';
 function Navbar() {
     const [click, setClick]= useState(false);
@@ -30,7 +29,6 @@ function Navbar() {
     <div className="navbar-container">
     <Link to="/" className='navbar-logo' onClick={closeMobileMenu} >
     <img src={logo} alt="Logo" width="200" height="50" />
-        
     </Link>
         <div className="menu-icon" onClick={handleClick}>
         <i className={click? 'fas fa-times':'fas fa-bars'}/>
@@ -63,7 +61,7 @@ function Navbar() {
         </li>
         <li className='nav-item'>
             <Link to ="/Login" className='nav-links' onClick={closeMobileMenu}>
-            {button &&<Button buttonSize={'btn--small'} >Login</Button>}
+            Login
             </Link>
         </li>
     </ul>
