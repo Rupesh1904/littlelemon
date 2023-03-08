@@ -19,7 +19,7 @@ function App() {
     <BrowserRouter>
       <HeroSection/>
       <Routes>
-        <Route path="/Reservation"></Route>
+        <Route path="/Reservation" ></Route>
       </Routes>
     </BrowserRouter>
     <BrowserRouter>

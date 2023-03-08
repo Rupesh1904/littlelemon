@@ -50,7 +50,7 @@ const Cards = () => {
             {card.text}
           </Card.Text>
         </Card.Body>
-        <div className="d-flex justify-content-left align-items-center"  style={{ backgroundColor: 'rgb(182, 178, 178)'}}>
+        <div className="d-flex justify-content-left align-items-center"  style={{ backgroundColor: 'rgb(246, 243, 243)'}}>
           <Button variant={null} className="Btn-custom" style={{color: 'black', fontFamily: 'Arial', fontSize: '14px'}}>Order a delivery <FontAwesomeIcon icon={faTruck} />
            </Button>
         </div>
