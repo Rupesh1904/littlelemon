@@ -1,9 +1,12 @@
 
-import {BrowserRouter,Routes, Route,} from 'react-router-dom';
+import {BrowserRouter,Routes, Route, Router,} from 'react-router-dom';
 import './App.css';
 import Navbar from './Components/Navbar';
 import HeroSection from './Components/HeroSection';
 import Section from './Components/Section';
+import Card from './Components/Cards';
+
+
 function App() {
   return (
     <>
@@ -16,7 +19,7 @@ function App() {
     <BrowserRouter>
       <HeroSection/>
       <Routes>
-        <Route path="/Reservation"></Route>
+        <Route path="/Reservation" ></Route>
       </Routes>
     </BrowserRouter>
     <BrowserRouter>
@@ -25,7 +28,14 @@ function App() {
         <Route path="/Online-Menu"/>
       </Routes>
     </BrowserRouter>
-    
+    <BrowserRouter>
+      <Card/>
+      <Routes>
+        <Route path="/card1" />
+        <Route path="/card2" />
+        <Route path="/card3" />
+      </Routes>
+    </BrowserRouter>
     </>
   );
 }
